@@ -7,16 +7,9 @@ public class MobileDB {
 	InputStreamReader ir= new InputStreamReader(System.in);
 	BufferedReader br= new BufferedReader(ir);
 	
-	
-	
-
 	int  customer_id,count=0;
 	String mobile_number;
 	String company,customer_name, address;
-	
-	
-	
-	
 	
 	
 	void Add_number()throws IOException
@@ -49,12 +42,6 @@ public class MobileDB {
 			
 		}
 	}
-	
-	
-	
-	
-	
-	
 	
 		
 		int Display_mobilenumber_Record(int flight_id)
@@ -94,12 +81,6 @@ public class MobileDB {
 		public void setAddress(String address) {
 			this.address = address;
 		}
-		
-		
-		
-		
-		
-		
 		
 		
 	public MobileDB(int cid, String comp, String cname, String adr)
